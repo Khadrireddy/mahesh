@@ -1,0 +1,83 @@
+body{ 
+    height: 100%;
+    width: 100%;
+    background-color: #2e2f43 ;
+}
+#dec1{
+    height: 400px;
+    position: fixed;
+    top: -20%;
+    right:-10%;
+}
+#dec2{
+    height: 200px;
+    position: fixed;
+    bottom: -8%;
+    left: -6%;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    position: relative;;
+    left: -40%;
+    font-size: 2.5rem;
+    color: white;
+    font-size: 30px;
+}
+
+.achievement-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 90px;
+}
+
+.achievement-card {
+    background-color: #333;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.achievement-card h2 {
+    color: #FF7597;
+    margin-bottom: 10px;
+}
+
+.achievement-card p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #B0B0B0;
+}
+
+.competition {
+    background-color: #ef6587;
+    padding: 20px;
+    border-radius: 10px;
+    color: #2A2A2A;
+}
+
+.competition h2 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.competition ul {
+    list-style: none;
+}
+
+.competition ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.competition ul li::before {
+    content: "✔";
+    margin-right: 10px;
+    color: #fff;
+}
+
